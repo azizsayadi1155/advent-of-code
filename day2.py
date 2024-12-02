@@ -1,7 +1,7 @@
 # PART 1
 
 counts_all = []
-with open("/home/cachybtw/Downloads/input.txt", 'r') as f:
+with open("input.txt", 'r') as f:
     for line in f:
         n_pos = 0
         n_neg = 0
@@ -28,7 +28,7 @@ def is_safe(sequence):
 
 safe_count = 0
 
-with open("/home/cachybtw/Downloads/input.txt", "r") as f:
+with open("input.txt", "r") as f:
     for line in f:
         sequence = line.split()
 
